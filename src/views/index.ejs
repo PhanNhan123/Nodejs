@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head') %>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <%- include('./partials/header') %>
+        <!--end header-->
+        <div id="container">
+        <!-- Advertisment -->
+        <div class="advertisment" style="background-image: url('https://www.enjpg.com/img/2020/home-scaled.jpg');">
+            <div class="ads-hover"></div>
+            <div class="ads__content">
+                <h4 class="ads__title" >Cửa nhôm</h4>
+                <p class="ads__desc" >Chúng tôi là những người yêu thiên nhiên, luôn say đắm trong việc khám phá các nguyên liệu quen thuộc trong đời sống hằng ngày của người Việt Nam từ rau củ, trái cây, để làm sao để đứa chúng vào trong các sản phẩm mỹ phẩm mà các chất dinh dưỡng của chúng được giữ lại một cách nguyên vẹn và hoàn hảo.</p>
+                <a href="" class="ads__viewmore btn" data-aos="fade-left">XEM CHI TIẾT <i id="ads__viewmore-icon" class=" fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="about-us-figures">
+                <div class="about-us-figures__item">
+                    <div class="about-us-figures__item-icon"><i class="fas fa-sitemap"></i></div>
+                    <h3 class="about-us-figures__item-number">1721</h3>
+                    <span class="about-us-figures__item-name">Sản phẩm mới</span>
+                    <div class="background-amination">
+                          <div class="sonar-wrapper">
+                            <div class="sonar-emitter">
+                              <div class="sonar-wave"></div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+
+                <div class="about-us-figures__item">
+                    <div class="about-us-figures__item-icon"><i class="fas fa-warehouse"></i></i></div>
+                    <h3 class="about-us-figures__item-number">11</h3>
+                    <span class="about-us-figures__item-name">Nhà máy</span>
+                    <div class="background-amination">
+                          <div class="sonar-wrapper">
+                            <div class="sonar-emitter">
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="about-us-figures__item">
+                    <div class="about-us-figures__item-icon"><i class="fas fa-users"></i></div>
+                    <h3 class="about-us-figures__item-number">21</h3>
+                    <span class="about-us-figures__item-name">Người dùng</span>
+                    <div class="background-amination">
+                          <div class="sonar-wrapper">
+                            <div class="sonar-emitter">
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="about-us-figures__item">
+                    <div class="about-us-figures__item-icon"><i class="fas fa-map-marked-alt"></i></div>
+                    <h3 class="about-us-figures__item-number">63</h3>
+                    <span class="about-us-figures__item-name">Tỉnh thành</span>
+                    <div class="background-amination">
+                          <div class="sonar-wrapper">
+                            <div class="sonar-emitter">
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="featured-list">
+                <!-- Featured item -->
+             
+                <div class="featured-item " data-aos="fade-right">
+                    <img class="featured-item__img" src="https://themify.me/demo/themes/ultra-gadgets/files/2021/02/google-vr.jpg" alt="">
+                    <div class="featured-item__content">
+                        <h3 class="featured-item__title"><%- products_top3[0]._product_name%></h3>
+                        <p class="featured-item__desc"><%- products_top3[0]._description%></p>
+                        <a href="/<%- products_top3[0]._id%>" class="featured-item__viewmore btn">Xem thêm</i></a>
+                    </div>
+                </div>
+   
+                <!-- Featured item reverse -->
+                <div class="featured-item featured-item--reverse" data-aos="fade-left">
+                    <img class="featured-item__img" src="https://themify.me/demo/themes/ultra-gadgets/files/2021/02/google-vr.jpg" alt="">
+                    <div class="featured-item__content">
+                        <h3 class="featured-item__title"><%- products_top3[1]._product_name%></h3>
+                        <p class="featured-item__desc"><%- products_top3[1]._description%></p>
+                        <a href="<%- products_top3[1]._id%>" class="featured-item__viewmore btn">Xem thêm</i></a>
+                    </div>
+                </div>
+                <div class="featured-item" data-aos="fade-right">
+                    <img class="featured-item__img" src="https://themify.me/demo/themes/ultra-gadgets/files/2021/02/google-vr.jpg" alt="">
+                    <div class="featured-item__content">
+                        <h3 class="featured-item__title"><%- products_top3[2]._product_name%></h3>
+                        <p class="featured-item__desc"><%- products_top3[2]._description%></p>
+                        <a href="<%- products_top3[2]._id%>" class="featured-item__viewmore btn">Xem thêm</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="avantages">
+                <div class="avantages__title">Nội thất LienNguyen</div>
+                <div class="avantages__desc">LienNguyen là trang web chuyên cung cấp vật liệu trong quá trình thi công hoàn thiện và dịch vụ xây dựng nhà trọn gói. Chúng tôi luôn đảm bảo đem tới những sản phẩm chất lượng mà giá cả hợp lí, bao gồm: Cửa nhôm, cửa nhựa, cửa cuốn, kính cường lực, trần thạch cao, giàn phơi thông minh.</div>
+                <div class="avantages__list">
+                    <div class="avantages__item">
+                        <div class="avantages__item-icon"><i class="fas fa-dolly"></i></div>
+                        <div class="avantages__item-content">
+                            <div class="avantages__item-content__name">Miễn phí vận chuyển</div>
+                            <div class="avantages__item-content__desc">các đơn hàng trên 5.000.000 đồng</div>
+                        </div>
+                    </div>
+                    <div class="avantages__item">
+                        <div class="avantages__item-icon"><i class="fas fa-shipping-fast"></i></div>
+                        <div class="avantages__item-content">
+                            <div class="avantages__item-content__name">Vận chuyển nhanh</div>
+                            <div class="avantages__item-content__desc">63 tỉnh thành Việt Nam</div>
+                        </div>
+                    </div>
+                    <div class="avantages__item">
+                        <div class="avantages__item-icon"><i class="fas fa-thumbs-up"></i></i></div>
+                        <div class="avantages__item-content">
+                            <div class="avantages__item-content__name">Sự lựa chọn hàng đầu</div>
+                            <div class="avantages__item-content__desc">Các sản phẩm đẹp, mới nhất</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <%- include('./partials/footer') %>
+        <!-- end footer -->
+    </div>
+    </div>
+</body>
+<!-- script -->
+<%- include('./partials/script') %>
+<!-- end script -->
+</html>

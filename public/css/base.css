@@ -1,0 +1,36 @@
+:root{
+    --bg-color: 255,255,255;
+    --item-bg-color: #fff;
+    --text-color:#242424;
+    --secondary-text-color:#666666;
+    --blur-color: #ccc;
+    --white-color:#fff;
+    --price-color:rgb(236, 4, 4);
+    --primary-color:#fdb03d;
+    --footer--color:#060E1F;   
+    --footer--text: #B5B5B5;
+}
+.dark-theme{
+    --bg-color: 24,25,26;
+    --item-bg-color: #3A3B3C;
+    --text-color:#fff;
+    --secondary-text-color:#cccccc;
+    --blur-color: #18191A;
+}
+ *{
+     box-sizing: inherit;
+ }
+ html{
+     font-size: 62.2%;
+     line-height: 1.6rem;
+     font-family: 'Roboto', sans-serif;
+     background-color: var(--bg-color);
+     scroll-behavior: smooth;
+     background-color: rgb(var(--bg-color));
+ }
+ .grid{
+     width:1200px;
+     max-width: 100%;
+     margin: auto;
+ }
+

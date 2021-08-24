@@ -1,0 +1,2 @@
+   <h1>Product Detail here</h1>
+    <h2><%- products._product_name%></h2>

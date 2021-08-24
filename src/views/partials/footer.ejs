@@ -1,0 +1,49 @@
+<footer>
+    <div class=" footer grid" id="footer">
+        <div class="footer__column">
+            <h2 class="footer__column-title">Danh mục sản phẩm</h2>
+            <ul class="footer__column-list">
+                <% products_top6.forEach(function(product, index) {%>
+                <!-- <li class="footer__column-item"><a href="">Cửa kính</a></li>
+                <li class="footer__column-item"><a href="">Cửa nhôm</a></li>
+                <li class="footer__column-item"><a href="">Cửa nhôm</a></li>
+                <li class="footer__column-item"><a href="">Cửa nhôm</a></li>
+                <li class="footer__column-item"><a href="">Cửa nhôm</a></li> -->
+                <li class="footer__column-item"><a href="/id=<%- product._id %>"><%- product._product_name %></a></li>
+                <%})%>
+            </ul>
+        </div>
+        <div class="footer__column">
+            <h2 class="footer__column-title">Truy cập nhanh</h2>
+            <ul class="footer__column-list">
+                <li class="footer__column-item"><a href="/contact">Liên hệ</a></li>
+                <li class="footer__column-item"><a href="/about_us">Về chúng tôi</a></li>
+            </ul>
+        </div>
+        <div class="footer__column">
+            <h2 class="footer__column-title">Liên hệ</h2>
+            <ul class="footer__column-list">
+                <li class="footer__column-item"><a href=""><i class="footer__column-item__icon fas fa-map-marker"></i>Linh Trung, Thủ Đức</a></li>
+                <li class="footer__column-item"><a href=""><i class="footer__column-item__icon fas fa-mobile"></i>+84 123456789</a></li>
+                <li class="footer__column-item"><a href=""><i class="footer__column-item__icon fas fa-phone"></i>+84 123456789</a></li>
+                <li class="footer__column-item"><a href=""><i class="footer__column-item__icon fas fa-envelope-open"></i>lienntb@gmail.com</a></li>
+                <li class="footer__column-item"><a href=""><i class="footer__column-item__icon fas fa-envelope-open"></i>lienntb@gmail.com</a></li>
+            </ul>
+        </div>
+        <div class="footer__column">
+            <h2 class="footer__column-title">Thông tin mới nhất</h2>
+            <span>Miễn phí vận chuyển cho khách hàng mua hàng đầu tiên</span>
+            <div class="footer__send-mail">
+                <input class="footer__send-mail__input" type="email" placeholder="Nhập mail">
+                <a href="" class="footer__btn-send-mail btn"><i class="fab fa-telegram-plane"></i></a>
+            </div>
+            <h2 class="footer__column-title">Theo dõi chúng tôi trên:</h2>
+            <div class="footer-social-media">
+                <a href="" class="footer-social-media__icon icon-fb"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="footer-social-media__icon icon-tw"><i class="fab fa-twitter"></i></a>
+                <a href="" class="footer-social-media__icon icon-gl"><i class="fab fa-google"></i></a>
+            </div>
+            <span id="authors">Design by LuongHC & NhanPT</span>
+        </div>
+    </div>
+</footer>

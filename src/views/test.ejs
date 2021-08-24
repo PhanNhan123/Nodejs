@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <!-- Link Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/aos.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- Font Awesome -->
+    <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+</head>
+<body>
+    <div class="app">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-top grid">
+                <a class="header-logo" href="/">
+                <span>L</span>ien
+                <span>N</span>guyen
+                </a>
+                <div class="header-nav">
+                    <ul id="header-nav-list" class="header-nav-list ">
+                        <li class="header-nav-item header-nav-item--active"><a href="">Trang CHỦ</a></li>
+                        <li class="header-nav-item header-nav-item-has-list">
+                        <a href="">DANH MỤC <i class="fas fa-caret-down"></i></a>
+                        <ul class="header-dropdown-list">
+                            <li class="dropdown-item"><a href="">CỬA KÍnh </a></li>
+                            <li class="dropdown-item"><a href="">CỬA KÍNH</a></li>
+                            <li class="dropdown-item"><a href="">NHÀ XƯỞNG KẾT CẤU</a></li>
+                            <li class="dropdown-item"><a href="">CỬA KÍNH</a></li>
+                            <li class="dropdown-item"><a href="">CỬA KÍNH</a></li>
+                        </ul>
+                        </li>
+                        <li class="header-nav-item"><a href="#footer">LIÊN HỆ</a></li>
+                        <li class="header-nav-item"><a href="">VỀ CHÚNG TÔI</a></li>
+                        <li id="header-nav-item--theme" class="header-nav-item light-theme"><a ><i id="header-nav-item--theme-icon" class="fas fa-moon"></i><span id="header-nav-item--theme-name">Chế độ tối</span></a></li>
+                    </ul>
+                    <a id="header-search-icon" class="header-nav-item-search"><i class="header-search-icon fas fa-search"></i></a>
+                    <a id="header-nav__menu-icon" class="header-nav__menu-icon"><i class="header-menu-icon fas fa-bars"></i></a>
+                </div>
+            </div>
+            <div id="header-bottom" class="header-bottom">
+                <div class="header-bottom__search">
+                    <input autofocus  type="text" id="search__input"  class="search__input">
+                    
+                    <i id="icon-hide-search"  class="fas fa-times"></i>
+                </div>
+                <div id="header-bottom__result" class="header-bottom__result">
+
+                        <!-- Product-search -->
+                        <a class="header-bottom__result-item" href="">
+                            <div class="result-img" style="background-image: url('https://cuakinhre.com/wp-content/uploads/2019/08/gia-cua-kinh-cuong-luc-khung-nhom-2.jpg');"></div>
+                            <div class="result-content">
+                                <div class="result-content__name">Cửa kính nhôm cao cấp</div>
+                                <div class="result-content__type">Phân loại: Cửa nhôm xifang</div>
+                                <div class="result-content__price">2.000.000</div>
+                            </div>
+                        </a>
+                        <a class="header-bottom__result-item" href="">
+                            <div class="result-img" style="background-image: url('https://cuakinhre.com/wp-content/uploads/2019/08/gia-cua-kinh-cuong-luc-khung-nhom-2.jpg');"></div>
+                            <div class="result-content">
+                                <div class="result-content__name">Cửa kính nhôm cao cấp</div>
+                                <div class="result-content__type">Phân loại: Cửa nhôm xifang</div>
+                                <div class="result-content__price">2.000.000</div>
+                            </div>
+                        </a>
+                        <a class="header-bottom__result-item" href="">
+                            <div class="result-img" style="background-image: url('https://cuakinhre.com/wp-content/uploads/2019/08/gia-cua-kinh-cuong-luc-khung-nhom-2.jpg');"></div>
+                            <div class="result-content">
+                                <div class="result-content__name">Cửa kính nhôm cao cấp</div>
+                                <div class="result-content__type">Phân loại: Cửa nhôm xifang</div>
+                                <div class="result-content__price">2.000.000</div>
+                            </div>
+                        </a>
+                        
+                        
+                      
+                        
+                    </div>
+            </div>
+        </header>
+        <div id="container">
+        <!-- Advertisment -->
+        <div class="advertisment" style="background-image: url('https://www.enjpg.com/img/2020/home-scaled.jpg');">
+            <div class="ads-hover"></div>
+            <div class="ads__content">
+                <h4 class="ads__title" >Cửa nhôm</h4>
+                <p class="ads__desc" >Chúng tôi là những người yêu thiên nhiên, luôn say đắm trong việc khám phá các nguyên liệu quen thuộc trong đời sống hằng ngày của người Việt Nam từ rau củ, trái cây, để làm sao để đứa chúng vào trong các sản phẩm mỹ phẩm mà các chất dinh dưỡng của chúng được giữ lại một cách nguyên vẹn và hoàn hảo.</p>
+                <a href="" class="ads__viewmore btn" data-aos="fade-left">XEM CHI TIẾT <i id="ads__viewmore-icon" class=" fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="about-us-figures">
+                <div class="about-us-figures__item">
+                    <div class="about-us-figures__item-icon"><i class="fas fa-sitemap"></i></div>
+                    <h3 class="about-us-figures__item-number">1721</h3>
+                    <span class="about-us-figures__item-name">Sản phẩm mới</span>
+                    <div class="background-amination">
+                          <div class="sonar-wrapper">
+                            <div class="sonar-emitter">
+                              <div class="sonar-wave"></div>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+
+                <div class="about-us-figures__item">
+                    <div class="about-us-figures__item-icon"><i class="fas fa-warehouse"></i></i></div>
+                    <h3 class="about-us-figures__item-number">11</h3>
+                    <span class="about-us-figures__item-name">Nhà máy</span>
+                    <div class="background-amination">
+                          <div class="sonar-wrapper">
+                            <div class="sonar-emitter">
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="about-us-figures__item">
+                    <div class="about-us-figures__item-icon"><i class="fas fa-users"></i></div>
+                    <h3 class="about-us-figures__item-number">21</h3>
+                    <span class="about-us-figures__item-name">Người dùng</span>
+                    <div class="background-amination">
+                          <div class="sonar-wrapper">
+                            <div class="sonar-emitter">
+                            </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="about-us-figures__item">
+                    <div class="about-us-figures__item-icon"><i class="fas fa-map-marked-alt"></i></div>
+                    <h3 class="about-us-figures__item-number">63</h3>
+                    <span class="about-us-figures__item-name">Tỉnh thành</span>
+                    <div class="background-amination">
+                          <div class="sonar-wrapper">
+                            <div class="sonar-emitter">
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="featured-list">
+                <!-- Featured item -->
+                <div class="featured-item " data-aos="fade-right">
+                    <img class="featured-item__img" src="https://themify.me/demo/themes/ultra-gadgets/files/2021/02/google-vr.jpg" alt="">
+                    <div class="featured-item__content">
+                        <h3 class="featured-item__title">Entertainment that you love with a little help from Google. </h3>
+                        <p class="featured-item__desc">Exclusive Google Store bundle: Buy Chromecast with Google TV and 6 months of Netflix for just $119.99 CAD.* Exclusive Google Store bundle: Buy Chromecast with Google TV and 6 months of Netflix for just $119.99 CAD.*</p>
+                        <a href="" class="featured-item__viewmore btn">Xem thêm</i></a>
+                    </div>
+                </div>
+                <!-- Featured item reverse -->
+                <div class="featured-item featured-item--reverse" data-aos="fade-left">
+                    <img class="featured-item__img" src="https://themify.me/demo/themes/ultra-gadgets/files/2021/02/google-vr.jpg" alt="">
+                    <div class="featured-item__content">
+                        <h3 class="featured-item__title">Entertainment that you love with a little help from Google. </h3>
+                        <p class="featured-item__desc">Exclusive Google Store bundle: Buy Chromecast with Google TV and 6 months of Netflix for just $119.99 CAD.* Exclusive Google Store bundle: Buy Chromecast with Google TV and 6 months of Netflix for just $119.99 CAD.*</p>
+                        <a href="" class="featured-item__viewmore btn">Xem thêm</i></a>
+                    </div>
+                </div>
+                <div class="featured-item" data-aos="fade-right">
+                    <img class="featured-item__img" src="https://themify.me/demo/themes/ultra-gadgets/files/2021/02/google-vr.jpg" alt="">
+                    <div class="featured-item__content">
+                        <h3 class="featured-item__title">Entertainment that you love with a little help from Google. </h3>
+                        <p class="featured-item__desc">Exclusive Google Store bundle: Buy Chromecast with Google TV and 6 months of Netflix for just $119.99 CAD.* Exclusive Google Store bundle: Buy Chromecast with Google TV and 6 months of Netflix for just $119.99 CAD.*</p>
+                        <a href="" class="featured-item__viewmore btn">Xem thêm</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="avantages">
+                <div class="avantages__title">Nội thất LienNguyen</div>
+                <div class="avantages__desc">LienNguyen là trang web chuyên cung cấp vật liệu trong quá trình thi công hoàn thiện và dịch vụ xây dựng nhà trọn gói. Chúng tôi luôn đảm bảo đem tới những sản phẩm chất lượng mà giá cả hợp lí, bao gồm: Cửa nhôm, cửa nhựa, cửa cuốn, kính cường lực, trần thạch cao, giàn phơi thông minh.</div>
+                <div class="avantages__list">
+                    <div class="avantages__item">
+                        <div class="avantages__item-icon"><i class="fas fa-dolly"></i></div>
+                        <div class="avantages__item-content">
+                            <div class="avantages__item-content__name">Miễn phí vận chuyển</div>
+                            <div class="avantages__item-content__desc">các đơn hàng trên 5.000.000 đồng</div>
+                        </div>
+                    </div>
+                    <div class="avantages__item">
+                        <div class="avantages__item-icon"><i class="fas fa-shipping-fast"></i></div>
+                        <div class="avantages__item-content">
+                            <div class="avantages__item-content__name">Vận chuyển nhanh</div>
+                            <div class="avantages__item-content__desc">63 tỉnh thành Việt Nam</div>
+                        </div>
+                    </div>
+                    <div class="avantages__item">
+                        <div class="avantages__item-icon"><i class="fas fa-thumbs-up"></i></i></div>
+                        <div class="avantages__item-content">
+                            <div class="avantages__item-content__name">Sự lựa chọn hàng đầu</div>
+                            <div class="avantages__item-content__desc">Các sản phẩm đẹp, mới nhất</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class=" footer grid" id="footer">
+                <div class="footer__column">
+                    <h2 class="footer__column-title">Danh mục sản phẩm</h2>
+                    <ul class="footer__column-list">
+                        <li class="footer__column-item"><a href="">Cửa kính</a></li>
+                        <li class="footer__column-item"><a href="">Cửa nhôm</a></li>
+                        <li class="footer__column-item"><a href="">Cửa nhôm</a></li>
+                        <li class="footer__column-item"><a href="">Cửa nhôm</a></li>
+                        <li class="footer__column-item"><a href="">Cửa nhôm</a></li>
+                        <li class="footer__column-item"><a href="">Cửa nhôm</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h2 class="footer__column-title">Truy cập nhanh</h2>
+                    <ul class="footer__column-list">
+                        <li class="footer__column-item"><a href="">Liên hệ</a></li>
+                        <li class="footer__column-item"><a href="">Về chúng tôi</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h2 class="footer__column-title">Liên hệ</h2>
+                    <ul class="footer__column-list">
+                        <li class="footer__column-item"><a href=""><i class="footer__column-item__icon fas fa-map-marker"></i>Linh Trung, Thủ Đức</a></li>
+                        <li class="footer__column-item"><a href=""><i class="footer__column-item__icon fas fa-mobile"></i>+84 123456789</a></li>
+                        <li class="footer__column-item"><a href=""><i class="footer__column-item__icon fas fa-phone"></i>+84 123456789</a></li>
+                        <li class="footer__column-item"><a href=""><i class="footer__column-item__icon fas fa-envelope-open"></i>lienntb@gmail.com</a></li>
+                        <li class="footer__column-item"><a href=""><i class="footer__column-item__icon fas fa-envelope-open"></i>lienntb@gmail.com</a></li>
+                    </ul>
+                </div>
+                <div class="footer__column">
+                    <h2 class="footer__column-title">Thông tin mới nhất</h2>
+                    <span>Miễn phí vận chuyển cho khách hàng mua hàng đầu tiên</span>
+                    <div class="footer__send-mail">
+                        <input class="footer__send-mail__input" type="email" placeholder="Nhập mail">
+                        <a href="" class="footer__btn-send-mail btn"><i class="fab fa-telegram-plane"></i></a>
+                    </div>
+                    <h2 class="footer__column-title">Theo dõi chúng tôi trên:</h2>
+                    <div class="footer-social-media">
+                        <a href="" class="footer-social-media__icon icon-fb"><i class="fab fa-facebook-f"></i></a>
+                        <a href="" class="footer-social-media__icon icon-tw"><i class="fab fa-twitter"></i></a>
+                        <a href="" class="footer-social-media__icon icon-gl"><i class="fab fa-google"></i></a>
+                    </div>
+                    <span id="authors">Design by LuongHC & NhanPT</span>
+                </div>
+            </div>
+            
+        </footer>
+    </div>
+    </div>
+</body>
+<script src="/js/jquery.min.js" ></script>
+<script src="/js/main.js"></script>
+<script src="/js/animateScroll.js"></script>
+<script>
+    AOS.init({duration: 1200,});
+  </script>
+</html>
+
+
+
+------------------------------------------------------------------------------------------------
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap" rel="stylesheet">
+    <!-- Link Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/aos.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <!-- Font Awesome -->
+    <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+</head>
+<body>
+   <h1>Index here</h1>
+    <%- include('./partials/search.ejs')%>
+    <div>
+        <% products.forEach(function(article, index) {%>
+        <h2><%- article._product_name %></h2>
+        <%})%>
+    </div>
+
+</body>
+<script src="/js/jquery.min.js" ></script>
+<script src="/js/main.js"></script>
+<script src="/js/animateScroll.js"></script>
+<script>
+    AOS.init({duration: 1200,});
+  </script>
+</html>
+ 
+ 
+
